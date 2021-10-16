@@ -41,6 +41,13 @@ func main() {
 	} else {
 		fmt.Println("helo last one")
 	}
+i := 0
+	for i <= 20 {
+		fmt.Println(i)
+		i = i + 1
+
+	}
+	fmt.Println(i % 21)
 	sam := 2
 	switch sam {
 	case 1:
